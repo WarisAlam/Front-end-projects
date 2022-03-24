@@ -1,0 +1,33 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+   font-size: 50px;
+   text-decoration: underline;
+}
+
+.gradientclass1{
+    background-image: linear-gradient(to left, red , black);
+}
+
+.boundaryclass1{
+    border: 2px;
+    border-color: black;
+    border-style: dashed;
+}
+
+.curveclass2{
+  border-radius: 50px;
+}
+
+#paddingclass1{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    /* margin: 10px; */
+}
