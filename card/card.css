@@ -1,0 +1,54 @@
+body{
+    background-color: lightgrey;
+    margin: 20px;
+}
+
+.container{
+    display: flex;
+}
+
+.card{
+    /* display: inline-block; */
+    background-color: white;
+    height: 400px;
+    width: 267px;
+    border: 2px;
+    border-color: white;
+    border-style: double;
+    border-width: 1px;
+    border-color: black;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+img{
+    width: 80%;
+    padding: 30px 3px 7px 25px;
+}
+
+img:hover{
+    cursor: pointer;
+    width: 100%;
+}
+
+.desc{
+    text-align: left;
+}
+
+.desc:hover{
+    cursor: pointer;
+    color: orange;
+}
+
+.price{
+    color: rgb(148, 20, 20);
+    text-align: left;
+    font-size: x-large; 
+}
+.more{
+    color: grey;
+}
+.shipping{
+    color: green;
+}
