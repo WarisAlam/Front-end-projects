@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:ital,wght@0,100;0,300;0,600;1,600&display=swap');
+
+:root {
+  --bggradient: linear-gradient(to bottom, #ca9eb4, tomato);
+}
+/* Header */
+
+.container1 {
+  background: var(--bggradient);
+}
+
+.heading {
+  padding: 3% 15% 7%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-size: 60px !important;
+  font-weight: bold;
+}
+
+#navbarSupportedContent {
+  font-size: 30px !important;
+  color: gray !important;
+}
+
+#navbarSupportedContent .nav-item :hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.row h1 {
+  font-size: 3.5rem;
+  color: rgb(37, 27, 27);
+  font-weight: bolder;
+}
+
+.row {
+  padding-top: 80px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #dog_pic {
+    width: 100%;
+    transform: rotate(0);
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #dog_pic {
+    width: 100%;
+    transform: rotate(25deg);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #dog_pic {
+    width: 60%;
+    transform: rotate(25deg);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #dog_pic {
+    width: 60%;
+    transform: rotate(25deg);
+  }
+
+  .col-lg-6 img {
+    width: 70%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #dog_pic {
+    width: 40%;
+    transform: rotate(25);
+  }
+}
+
+/* download button section */
+.btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* feature */
+.container2 {
+  padding: 5em;
+}
+
+.container2 .card-group {
+  font-size: 2em;
+  padding: 5px;
+}
+
+.container2 .card-text {
+  font-size: medium;
+}
+
+.container2 .fa-solid {
+  font-size: 2em;
+  color: tomato;
+}
+
+.container2 .fa-solid:hover {
+  color: rgb(255, 0, 55);
+}
+
+.card {
+  padding: 5%;
+}
+
+.card .col-lg-4 {
+  padding: 20%;
+}
+
+/*caraousel section*/
+.testimonials {
+  text-align: center;
+  background-color: rgb(182, 83, 65);
+  color: black;
+  font-family: "Rubik", sans-serif;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+.carousel-item h2 {
+  font-weight: bold;
+}
+
+.testimonial_img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.press_coverage {
+  padding-bottom: 3%;
+  width: 100%;
+}
+
+.press_coverage img {
+  width: 17%;
+  margin: 10px 10px 25px;
+}
+
+/* pricing */
+.container5 {
+  padding: 70px;
+}
+
+.container5 h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.card1 {
+  padding: 2% 2%;
+}
+
+.card-text {
+  font-size: 1rm;
+}
+
+/* container6 */
+.container6 {
+  background-color: tomato;
+  justify-content: center;
+  padding: 100px 15% 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container6 h2 {
+  font-size: 4em;
+  color: white;
+  font-weight: bold;
+}
+
+/* footer section */
+footer {
+  /* margin-bottom: 12em; */
+  padding: 100px 15% 15%;
+}
+
+.social li {
+  display: inline-block;
+  justify-content: space-evenly;
+  padding: 15px;
+  margin: 10px;
+  border: 2px;
+  font-size: 230%;
+}
+
+.social li:hover {
+  border-style: solid !important;
+  border: 1px;
+  cursor: pointer;
+  border-radius: 12%;
+  border-color: darkgray;
+}
