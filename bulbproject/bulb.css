@@ -1,0 +1,48 @@
+
+body {
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+
+}
+
+.double_switch{
+    height: 450px;
+    width: 400px;
+    background-color:black;
+    margin-top: 50px;
+    margin: 50px;
+    padding-top: 50px;
+    border-radius: 7px;
+ 
+}
+.single_switch{
+    height: 450px;
+    width: 400px;
+    background-color:black;
+    margin-top: 50px;
+    margin: 50px;
+    padding-top: 50px;
+    border-radius: 7px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    background-color: red;
+    font-size: medium;
+    border-radius: 7px;
+}
+
+button:focus {
+    height: 40px;
+    width: 150px;
+    background-color: green;
+    font-size: medium;
+}

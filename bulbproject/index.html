@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>bulbExercise</title>
+    <link rel="stylesheet" href="bulb.css">
+</head>
+<script>
+    // when one switch is use
+
+    var bulbstatus = false
+
+    function turnOnOff() {
+
+        if (bulbstatus) {
+            document.getElementById("bulb_img2").src = "https://www.w3schools.com/js/pic_bulboff.gif"
+            bulbstatus = false
+        } else {
+            document.getElementById("bulb_img2").src = "https://www.w3schools.com/js/pic_bulbon.gif"
+            bulbstatus = true
+        }
+    }
+
+
+    //   when two switchs are use
+    function turnOn() {
+        document.getElementById("bulb_img").src = "https://www.w3schools.com/js/pic_bulbon.gif"
+    }
+
+    function turnOff() {
+        document.getElementById("bulb_img").src = "https://www.w3schools.com/js/pic_bulboff.gif"
+    }
+</script>
+
+<body>
+    <div class="double_switch">
+        <img id="bulb_img" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="bulb_img">
+        <br>
+        <button onclick="turnOn()">Turn On</button>
+        <button onclick="turnOff()">Turn Off</button>
+    </div>
+
+    <div class="single_switch">
+        <img id="bulb_img2" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="bulb_img">
+        <br>
+        <button onclick="turnOnOff()">Turn On/Off</button>
+    </div>
+</body>
+
+</html>
