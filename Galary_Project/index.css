@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: lightgoldenrodyellow;
+}
+.heading{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    margin-top: 18px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 60px;
+    background-color: rgb(219, 199, 202);
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    width: 100%;
+    margin-top: 150px;
+}
+.pannel{
+    position: relative;
+    height: 80vh;
+    flex: 0.5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:50px ;
+    cursor: pointer;
+    color: #fff;
+    margin: 10px;
+    transition: all 700ms ease-in;
+
+}
+.pannel h3{
+    position: absolute;
+    font-size: 25px;
+    opacity: 0;
+    margin: 0;
+    bottom: 20px;
+    left: 20px;
+}
+.pannel.active{
+    flex: 5;
+}
+.pannel.active h3{
+    opacity: 1;
+    transition: opacity 300ms ease-in 400ms;
+}
+#panel-1{
+    background-image: url("https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");   
+}
+
+#panel-2{
+    background-image: url("https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");   
+}
+
+#panel-3{
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80");   
+}
+
+#panel-4{
+    background-image: url("https://images.unsplash.com/photo-1551009175-8a68da93d5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");   
+}
+
+#panel-5{
+    background-image: url("https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");   
+}
+#panel-6{
+    background-image: url("https://media.cntraveler.com/photos/59d3a805ddaded4e04772233/16:9/w_2560%2Cc_limit/Rome_GettyImages-841851056.jpg");   
+}
+#panel-7{
+    background-image: url("https://www.momondo.com/discover/wp-content/uploads/sites/260/2017/11/d0b9d887-e7de-3225-a083-7e9a1f104b78.jpg");   
+}
