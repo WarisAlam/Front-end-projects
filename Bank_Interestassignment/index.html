@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BankInterestCalculatore</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="bank-balance-display">
+        <table>
+            <tr>
+                <th class="table_head">Account Holder Name</th>
+                <th class="table_head">Current Account Balance</th>
+                <th class="table_head">Balance After Interest</th>
+            </tr>
+            <tr>
+                <td>Md Waris Alam</td>
+                <td><input type="number" id="bank-balance-1"></td>
+                <td><input type="number" id="updated-bank-balance-1" disabled></td>
+            </tr>
+            <tr>
+                <td>Vineet Raj</td>
+                <td><input type="number" id="bank-balance-2"></td>
+                <td><input type="number" id="updated-bank-balance-2" disabled></td>
+            </tr>
+            <tr>
+                <td>Vikash Kumar Singh</td>
+                <td><input type="number" id="bank-balance-3"></td>
+                <td><input type="number" id="updated-bank-balance-3" disabled></td>
+            </tr>
+            <tr>
+                <td>Abdul Mabood</td>
+                <td><input type="number" id="bank-balance-4"></td>
+                <td><input type="number" id="updated-bank-balance-4" disabled></td>
+            </tr>
+            <tr>
+                <td>Md Arshad Alam</td>
+                <td><input type="number" id="bank-balance-5"></td>
+                <td><input type="number" id="updated-bank-balance-5" disabled></td>
+            </tr>
+        </table>
+        <button onclick="calculateInterest()">Calculate Interest for account holders</button>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

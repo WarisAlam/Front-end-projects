@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(250, 231, 162);
+}
+
+.bank-balance-display{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.bank-balance-display table{
+    border: 2px solid black;
+}
+table, tr, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td, th{
+ padding: 15px;
+}
+
+td input{
+    width: 90%;
+}
+
+.table_head{
+    background: #a20a3a;
+    color: yellow;
+}
+.bank-balance-display button{
+    margin: 8px;
+    padding: 12px;
+    border-radius: 5px;
+    background: #a20a3a;
+    color: white;
+
+}
+
