@@ -7,3 +7,4 @@
 * [Apple-assignment](https://warisalam.github.io/Front-end-projects/apple-assignment/)
 * [Bulb Project](https://warisalam.github.io/Front-end-projects/bulbproject/)
 * [Gallary Project](https://warisalam.github.io/Front-end-projects/Galary_Project/)
+* [Calculator-Project](https://warisalam.github.io/Front-end-projects/calculator_project/)
