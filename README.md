@@ -8,3 +8,4 @@
 * [Bulb Project](https://warisalam.github.io/Front-end-projects/bulbproject/)
 * [Gallary Project](https://warisalam.github.io/Front-end-projects/Galary_Project/)
 * [Calculator-Project](https://warisalam.github.io/Front-end-projects/calculator_project/)
+* [Bank-Interest](https://warisalam.github.io/Front-end-projects/Bank_Interestassignment/)
